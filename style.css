@@ -1,0 +1,52 @@
+.all {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.lesproduits {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+.nike {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  border: 2px solid;
+  width: 150px;
+}
+.adidas {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid;
+  width: 150px;
+}
+.puma {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid;
+  width: 150px;
+}
+.titreproduits {
+  border: 2px solid;
+}
+.titrepanier {
+  border: 2px solid;
+  text-align: center;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+.textpuma {
+  display: flex;
+  justify-content: space-between;
+}
+.imgnike {
+  align-items: center;
+}

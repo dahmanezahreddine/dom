@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="all">
+      <div class="produits">
+        <h1 class="titreproduits">PRODUITS</h1>
+        <div class="lesproduits">
+          <div class="nike">
+            <img
+              class="imgnike"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPgAAADLCAMAAAB04a46AAAAe1BMVEX///8AAADf39/T09N8fHzw8PDPz8/7+/v4+Pjz8/O8vLyamprk5OS5ubkMDAylpaXq6upPT09kZGRYWFhvb2+Dg4OpqanJycmPj490dHTZ2dlAQECzs7NpaWklJSWioqIfHx80NDQVFRU6OjotLS2WlpZERESBgYESEhKLqKDUAAAECUlEQVR4nO3c63qiMBAG4AYRD2DF9YTWarXa9f6vcD2UipCEAJkkdL/3f5PMIzCTSZ6+vAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOGxgewFWROOFZ3sN5i397Ty2vQjTvN2EsYXtVRg2GPqMscnS9jrM6pw+L1EzP9I1YKBrIELx5s81aPYa9rWNuVtrG4pGfznf3qJmbyONwy6nGgfT7/Ypu/vT0TlwzNz9wbuj2TmNmmlOX73zXut4+gTJ50/Q7GPR0zz8xMmMGC2mLIMgfc0Z0/eV1OOeqjNWBJXpkDG3Pm3r09dz1DrT10N0GXlDMG49aarO0Jq+Mq7Z0Y1S/5Kqj/moNaevjNn1USIauwovnBSCZiwh+0k21+FnVKMruqTqV07UW+3p6yG+zTAmG1/BMtlzgqbefd3fKWsbPG835Qatc/fFNb/PYuXb1h2tBEGz1x1xXdH5nsh4+dILBM/31deQfP7D91TkEz3xxqLn+2pmYLuUVoUH+qlS3eHqIImaJV0DiwjS2Y4GJrtNmLzJgmb7DV36ytqaDDy31eKYmmp+JT9Tbolnumy1pM/31Zw2fWVEj0lJK9anVoLAYWzmGb/JVsZUc8i/3ymzDfJhdmqKT6mkPnlC0WGQedoU6E6dfVH9nXcOTZ91hk/za+1DZFrBJag6DBL93OOma9x4w91fcr3b6GjPc4vQMSa3fyJE12GQ6eaX0bh26OT7g1JHWz0+P7+SRl1Wb1HoD0oZK9EKCj84Y3U7erFi0nqweYch/4azeuX64Of8UtnWZIlW0Octya82Rq/aS31n+w7DmLuqk/oA4k6ZjOkSrUiQdBKlP44qfsm+mS/RigLR4iZlJXu8kbdPhN7ou2gKZuIF7sR/1R35H7WCNtNFU9CTLvLESzZx/aAvb5D9Z/xuWLLQt7CT7TZ7m5Vy9V306c4x7Mu7wnoPUz8Jd2HiV09ZWWQHnbU0CqUKO9sQoU75inU4Eh501hOWL7q5qYPXTGuVH9X8NdYproI6aqOd4go4O1KdbG9DxNaUYfvWtyFiZeVLfQfqw/xmNkRhT5zYhkjw9+JNrdzYhsjsCMIOTRzmN7XQHbWF05BaRnrDdmSrrUBrqX5yZautQF8B49JWW8W5PCQV705ttVUUTo/qMHIpS7Nl46jb9oynGobtVjupikadCMfaSZVwT86U7Fv6jKdqVq3t+44XlF+4K2rjd7wgrhp1W+rxUsJjQ6721OPl1JP5oRV7TnWe2nmY832VGhTu7Ji7SW3UWn6dY/ULf+xUlPDvN3zMfv9/0/EWs2xW3078cdCi7kJDg2gdBME6+n8iBgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPhd/gFHyi8u+kmPywAAAABJRU5ErkJggg=="
+              alt="NIKE"
+              width="100px"
+            />
+            <div class="textpuma">
+              <i class="fa-regular fa-heart"></i>
+              <div class="namenike">NIKE</div>
+              <div class="prix">100 TND</div>
+            </div>
+            <div>
+              <button id="minus">-</button>
+              <span class="qty">1</span>
+              <button id="plus">+</button>
+              <i class="xicone fa-solid fa-xmark"></i>
+            </div>
+            <button class="addprd">COMMANDER</button>
+          </div>
+          <div class="adidas">
+            <img
+              class="imgadidas"
+              src="https://static.vecteezy.com/ti/vecteur-libre/t2/10994276-adidas-logo-symbole-vetements-design-icone-abstrait-football-illustrationle-gratuit-vectoriel.jpg"
+              alt="ADIDAS"
+              width="100px"
+            />
+            <div class="textpuma">
+              <i class="fa-regular fa-heart"></i>
+              <div class="nameadidas">ADIDAS</div>
+              <div class="prix">150 TND</div>
+            </div>
+            <div>
+              <button id="minus">-</button>
+              <span class="qty">1</span>
+              <button id="plus">+</button>
+              <i class="xicone fa-solid fa-xmark"></i>
+            </div>
+            <button class="addprd">COMMANDER</button>
+          </div>
+          <div class="puma">
+            <img
+              class="imgpuma"
+              src="https://www.1min30.com/wp-content/uploads/2017/07/Symbole-Puma.jpg"
+              alt="PUMA"
+              width="100px"
+            />
+            <div class="textpuma">
+              <i class="fa-regular fa-heart"></i>
+              <div class="namepuma">PUMA</div>
+              <div class="prix">50 TND</div>
+            </div>
+            <div>
+              <button id="minus">-</button>
+              <span class="qty">1</span>
+              <button id="plus">+</button>
+              <i class="xicone fa-solid fa-xmark"></i>
+            </div>
+
+            <button class="addprd">COMMANDER</button>
+          </div>
+        </div>
+      </div>
+
+      <!--  ----------- -->
+
+      <div class="panier">
+        <h1 class="titrepanier">PANIER</h1>
+        <div class="plusprd"></div>
+        <table class="table">
+          <tr>
+            <th>PRODUITS</th>
+            <th>PRIX</th>
+            <th>QUANTITE</th>
+            <th>TOTAL</th>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td>
+              <!-- <button id="minus">-</button>
+              <span class="qty">1</span>
+              <button id="plus">+</button> -->
+            </td>
+            <td class="totalfini"></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
